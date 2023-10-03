@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("name");
             $table->string("reference"); //identifiant du produit dans un autre systeme.
             $table->float("price");
-            $table->Interger("quantity");
+            $table->Integer("quantity");
             $table->timestamps();
         });
     }
