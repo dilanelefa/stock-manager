@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//Ivanna
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -23,3 +23,9 @@ Route::get('/shop', function(){
 Route::get('/contact', function(){
     return view('front.contact');
 })->name('contact');
+
+//End Ivanna
+
+Route::get('/dashboard', function(){
+    return view('dashboard.index');
+});
