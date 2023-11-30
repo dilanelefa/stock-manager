@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
 Route::get('/shop', function(){
     return view('front.shop');
 })->name('shop');
@@ -25,7 +26,10 @@ Route::get('/contact', function(){
 })->name('contact');
 
 //End Ivanna
-
+//Start Dilane
 Route::get('/dashboard', function(){
     return view('dashboard.index');
 })->name('dashboard');
+
+
+//End Dilane
